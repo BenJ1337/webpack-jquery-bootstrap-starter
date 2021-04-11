@@ -1,0 +1,12 @@
+@import "~bootstrap/scss/bootstrap";
+@import "./default.scss";
+
+$dark-gray: #333;
+
+p {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    color: $dark-gray;
+    font-family: Arial, Helvetica, sans-serif;
+}

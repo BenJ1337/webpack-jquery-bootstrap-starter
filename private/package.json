@@ -1,0 +1,29 @@
+{
+  "name": "private",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --config webpack.config.dev.js",
+    "build": "webpack --mode production --config webpack.config.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "css-loader": "^5.2.1",
+    "extract-loader": "^5.1.0",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^1.4.1",
+    "popper.js": "^1.16.1",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
